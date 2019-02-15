@@ -1,0 +1,52 @@
+html {
+  background-color: #001940;
+  color: white;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.pres-title {
+  margin-top: 0;
+  font-size: 6em;
+  outline: none;
+  text-align: center;
+}
+.people {
+  outline: none;
+  margin-top: 6em;
+  font-style: italic;
+  font-size: 2em;
+}
+.clock {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem;
+}
+.hide-pointer {
+  cursor: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3em;
+}
+
+#countdown-button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 7px;
+  padding: 0.6em 1em;
+}
+
+#countdown-reset {
+  border: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
